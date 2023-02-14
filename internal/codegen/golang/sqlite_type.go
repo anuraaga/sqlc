@@ -4,8 +4,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/sdk"
-	"github.com/kyleconroy/sqlc/internal/plugin"
+	"github.com/anuraaga/sqlc/internal/codegen/sdk"
+	"github.com/anuraaga/sqlc/internal/plugin"
 )
 
 func sqliteType(req *plugin.CodeGenRequest, col *plugin.Column) string {

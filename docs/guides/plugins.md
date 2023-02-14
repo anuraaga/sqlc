@@ -46,7 +46,7 @@ to the plugin itself.
 For a complete working example see the following files:
 - [sqlc-gen-greeter](https://github.com/kyleconroy/sqlc-gen-greeter)
   - A WASM plugin (written in Rust) that outputs a friendly message
-- [wasm_plugin_sqlc_gen_greeter](https://github.com/kyleconroy/sqlc/tree/main/internal/endtoend/testdata/wasm_plugin_sqlc_gen_greeter)
+- [wasm_plugin_sqlc_gen_greeter](https://github.com/anuraaga/sqlc/tree/main/internal/endtoend/testdata/wasm_plugin_sqlc_gen_greeter)
   - An example project showing how to use a WASM plugin
 
 ## Process plugins
@@ -91,7 +91,7 @@ to the plugin itself.
 ```
 
 For a complete working example see the following files:
-- [sqlc-gen-json](https://github.com/kyleconroy/sqlc/tree/main/cmd/sqlc-gen-json)
+- [sqlc-gen-json](https://github.com/anuraaga/sqlc/tree/main/cmd/sqlc-gen-json)
   - A process-based plugin that serializes the CodeGenRequest to JSON
-- [process_plugin_sqlc_gen_json](https://github.com/kyleconroy/sqlc/tree/main/internal/endtoend/testdata/process_plugin_sqlc_gen_json)
+- [process_plugin_sqlc_gen_json](https://github.com/anuraaga/sqlc/tree/main/internal/endtoend/testdata/process_plugin_sqlc_gen_json)
   - An example project showing how to use a process-based plugin

@@ -16,11 +16,11 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/golang"
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/debug"
-	"github.com/kyleconroy/sqlc/internal/info"
-	"github.com/kyleconroy/sqlc/internal/tracer"
+	"github.com/anuraaga/sqlc/internal/codegen/golang"
+	"github.com/anuraaga/sqlc/internal/config"
+	"github.com/anuraaga/sqlc/internal/debug"
+	"github.com/anuraaga/sqlc/internal/info"
+	"github.com/anuraaga/sqlc/internal/tracer"
 )
 
 func init() {

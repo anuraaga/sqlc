@@ -15,18 +15,18 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/golang"
-	"github.com/kyleconroy/sqlc/internal/codegen/json"
-	"github.com/kyleconroy/sqlc/internal/compiler"
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/config/convert"
-	"github.com/kyleconroy/sqlc/internal/debug"
-	"github.com/kyleconroy/sqlc/internal/ext"
-	"github.com/kyleconroy/sqlc/internal/ext/process"
-	"github.com/kyleconroy/sqlc/internal/ext/wasm"
-	"github.com/kyleconroy/sqlc/internal/multierr"
-	"github.com/kyleconroy/sqlc/internal/opts"
-	"github.com/kyleconroy/sqlc/internal/plugin"
+	"github.com/anuraaga/sqlc/internal/codegen/golang"
+	"github.com/anuraaga/sqlc/internal/codegen/json"
+	"github.com/anuraaga/sqlc/internal/compiler"
+	"github.com/anuraaga/sqlc/internal/config"
+	"github.com/anuraaga/sqlc/internal/config/convert"
+	"github.com/anuraaga/sqlc/internal/debug"
+	"github.com/anuraaga/sqlc/internal/ext"
+	"github.com/anuraaga/sqlc/internal/ext/process"
+	"github.com/anuraaga/sqlc/internal/ext/wasm"
+	"github.com/anuraaga/sqlc/internal/multierr"
+	"github.com/anuraaga/sqlc/internal/opts"
+	"github.com/anuraaga/sqlc/internal/plugin"
 )
 
 const errMessageNoVersion = `The configuration file must have a version number.

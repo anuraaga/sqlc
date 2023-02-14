@@ -6,15 +6,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/debug"
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/opts"
-	"github.com/kyleconroy/sqlc/internal/source"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/astutils"
-	"github.com/kyleconroy/sqlc/internal/sql/rewrite"
-	"github.com/kyleconroy/sqlc/internal/sql/validate"
+	"github.com/anuraaga/sqlc/internal/config"
+	"github.com/anuraaga/sqlc/internal/debug"
+	"github.com/anuraaga/sqlc/internal/metadata"
+	"github.com/anuraaga/sqlc/internal/opts"
+	"github.com/anuraaga/sqlc/internal/source"
+	"github.com/anuraaga/sqlc/internal/sql/ast"
+	"github.com/anuraaga/sqlc/internal/sql/astutils"
+	"github.com/anuraaga/sqlc/internal/sql/rewrite"
+	"github.com/anuraaga/sqlc/internal/sql/validate"
 )
 
 var ErrUnsupportedStatementType = errors.New("parseQuery: unsupported statement type")
